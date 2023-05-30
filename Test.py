@@ -1,7 +1,13 @@
-list = [123,123,123,132]
+#list chooser 
 
-def count_list():
-    for spalte():
-        print(list)
+def person_intro(name, age, height):
+    a =str(name)
+    b = str(age)
+    c = str(height)
+    print("Welcome back", a, "\nYour ",b, " years old\nYour ",c, " cm Tall")
 
-count_list()
+a = input("Your name: ")
+b = input("your age: ")
+c = input("your height: ")
+
+person_intro(a,b,c)
