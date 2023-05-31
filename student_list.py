@@ -19,4 +19,5 @@ while b == 0:
         b= 0 
     elif c == "no":
         b +=1 
+        
 print(check_name(lists))
